@@ -6,7 +6,7 @@ RUN apk add --no-cache perl curl make && \
     mkdir -p /app && \
     curl -o /app/exiftool.tar.gz -L https://github.com/exiftool/exiftool/archive/refs/tags/13.21.tar.gz && \
     tar xfz /app/exiftool.tar.gz -C /app && \
-    cd /app/exiftool-13.17 && \
+    cd /app/exiftool-13.21 && \
     perl Makefile.PL && \
     make && \
     make install && \
