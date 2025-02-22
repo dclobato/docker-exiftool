@@ -17,6 +17,7 @@ RUN apk add --no-cache perl curl make && \
 VOLUME /source  # Mount point for files to be processed by ExifTool
 WORKDIR /source
 
+
 # Default command to run ExifTool interactively
 CMD ["exiftool"]
 
